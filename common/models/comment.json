@@ -9,10 +9,19 @@
     "content": {
       "type": "string",
       "required": true
+    },
+    "postId": {
+      "type": "number"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "post": {
+      "type": "belongsTo",
+      "model": "Post",
+      "foreignKey": "postId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
