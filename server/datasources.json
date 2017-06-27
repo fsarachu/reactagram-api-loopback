@@ -3,5 +3,15 @@
     "name": "db",
     "connector": "memory",
     "file": "db.json"
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "test",
+    "password": "secret",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
   }
 }
